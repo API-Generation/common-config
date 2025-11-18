@@ -1,6 +1,5 @@
-specDirName: "generated/specs/openapi" # This path is relative to the basePath
+outputSubDir: "specs/openapi"
 specFilePostfix: "-openapi"
-specFileType: "json"
 httpStatusCodeFileName: "config/generators/openapi/http-status-codes.csv"
 # strategy: DEFINED_TYPES
 # strategy: NAMED_OPERATIONS
@@ -57,5 +56,6 @@ openapi:
       name: "Library API Support"
       url: "http://apigeneration.tech/support"
       email: "support@apigeneration.tech"
+
 
 
